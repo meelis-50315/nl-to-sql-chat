@@ -1,0 +1,17 @@
+.gradle/
+build/
+out/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+.claude/
+*.iml
+*.iws
+.DS_Store
+application-local.properties
+
+# H2 file-based database (used by the "h2" Spring profile)
+/data/
+*.mv.db
+*.trace.db
